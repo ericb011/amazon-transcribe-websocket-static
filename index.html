@@ -12,21 +12,17 @@
 <body>
     <div class="container">
         <h1>
-            Real-time Audio Transcription
+            Amazon Interview Transcription Service
         </h1>
         <p class="small-caps">
-            Using the <a href="https://aws.amazon.com/transcribe/">Amazon Transcribe</a> WebSocket API
+            We focus on recording your conversation so you can focus on getting to know your candidate. 
         </p>
         <hr/>
-        <p>
-            Create an <a href="https://aws.amazon.com/free/">AWS Account</a>, attach the necessary <a
-                href="policy.json"> IAM policy</a>, and enter your Access Id and Secret Key below.
-        </p>
 
         <div id="error" class="isa_error"></div>
 
         <div class="row">
-            <div class="col">
+            <div class="col"  style="visibility:hidden">
                 <label>Access ID:</label>
                 <input type="password" id="access_id" placeholder="ACCESS ID" value="" />
 
@@ -35,9 +31,9 @@
                 <label>Session Token (if using MFA):</label>
                 <input type="password" id="session_token" placeholder="SESSION TOKEN" value="" />
             </div>
-            <div class="col">
+            <div class="col"  style="visibility:hidden">
                 <label>Language: </label>
-                <select id="language">
+                <select id="language" style="visibility:hidden">
                     <optgroup label="English">
                         <option value="en-US">US English (en-US)</option>
                         <option value="en-AU">Australian English (en-AU)</option>
