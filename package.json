@@ -24,9 +24,11 @@
     ]
   },
   "dependencies": {
+    "@aws-sdk/client-sns-browser": "0.1.0-preview.2",
     "@aws-sdk/client-sns-node": "0.1.0-preview.2",
     "@aws-sdk/eventstream-marshaller": "0.1.0-preview.2",
     "@aws-sdk/util-utf8-node": "0.1.0-preview.1",
+    "aws-sdk": "^2.564.0",
     "browserify": "^16.3.0",
     "local-web-server": "^3.0.6",
     "microphone-stream": "^5.0.1",
